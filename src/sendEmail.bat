@@ -1,7 +1,7 @@
 @echo off
-cd E:\Java_Email\src\
-E:
+cd "C:\Users\Imran Islam\git\DailyReportSender\src\"
+C:
 
-javac -cp E:\Java_Email\lib\* SimpleSendEmail.java
-java  -cp E:\Java_Email\lib\*; SimpleSendEmail
+javac -cp "C:\Users\Imran Islam\git\DailyReportSender\lib\*" SimpleSendEmail.java
+java  -cp "C:\Users\Imran Islam\git\DailyReportSender\lib\*"; SimpleSendEmail
 pause
